@@ -11,7 +11,7 @@ import (
 	"github.com/rs/cors"
 )
 
-/*managers is a method that pass a router object to a cors handler to serv our server*/
+/*Managers is a method that pass a router object to a cors handler to serv our server*/
 func Managers() {
 	router := mux.NewRouter()
 

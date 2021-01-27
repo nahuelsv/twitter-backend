@@ -6,7 +6,7 @@ import (
 	"github.com/nahuelsv/twitter-backend/bd"
 )
 
-/*CheckDB middleware to check database connection */
+/*CheckDB is a middleware to check database connection */
 func CheckDB(next http.HandlerFunc) http.HandlerFunc {
 	return func(w http.ResponseWriter, r *http.Request) {
 		if bd.CheckConnection() == 0 {
