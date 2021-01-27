@@ -1,5 +1,6 @@
-module github.com/nahuelsv/twitter-backend
+module github.com/nahuelsv/twitter-backend/
 
+// +heroku goVersion go1.15
 go 1.15
 
 require (
